@@ -35,3 +35,13 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Terraform plans (binary)
+*.bin
+*.tfplan
+
+# Local env for Makefile backend config
+.env
+
+# VSCode config (optional)
+.vscode/
